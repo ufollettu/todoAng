@@ -1,6 +1,6 @@
 import {Component} from '@angular/core';
-import {Model} from "./models/model";
-import {TodoItem} from "./models/todo-item";
+import {Model} from './models/model';
+import {TodoItem} from './models/todo-item';
 
 @Component({
   selector: 'app-root',
@@ -19,7 +19,7 @@ export class AppComponent {
   }
 
   addItem(newItem) {
-    if (newItem != "") {
+    if (newItem !== '') {
       return this.model.items.push(new TodoItem(newItem, false));
     }
   }
