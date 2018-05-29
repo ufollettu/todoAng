@@ -5,11 +5,17 @@ import {NgbModule} from "@ng-bootstrap/ng-bootstrap";
 import {AppComponent} from './app.component';
 import {FormsModule} from "@angular/forms";
 import {HttpModule} from "@angular/http";
+import { NavbarComponent } from './navbar/navbar.component';
+import { TodoComponent } from './todo/todo.component';
+import { FramworksComponent } from './framworks/framworks.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavbarComponent,
+    TodoComponent,
+    FramworksComponent
   ],
   imports: [
     BrowserModule,
